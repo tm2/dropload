@@ -12,7 +12,7 @@
   "dependencies": {
     "component/emitter": "*",
     "component/classes": "*",
-    "component/upload": "*"
+    "tm2/upload": "*"
   },
   "development": {},
   "scripts": [
