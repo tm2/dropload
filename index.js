@@ -5,7 +5,8 @@
 
 var Emitter = require('emitter')
   , classes = require('classes')
-  , Upload = require('upload');
+  , Upload = require('upload')
+  , inherit = require('dropload');
 
 /**
  * Expose `Dropload`.
@@ -41,7 +42,7 @@ function Dropload(el) {
  * Mixin emitter.
  */
 
-Emitter(Dropload.prototype);
+inherit(Emitter, Dropload);
 
 /**
  * Dragenter handler.

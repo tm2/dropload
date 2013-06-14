@@ -12,7 +12,8 @@
   "dependencies": {
     "component/emitter": "*",
     "component/classes": "*",
-    "tm2/upload": "*"
+    "tm2/upload": "*",
+    "component/inherit": "*"
   },
   "development": {},
   "scripts": [
