@@ -6,7 +6,7 @@
 var Emitter = require('emitter')
   , classes = require('classes')
   , Upload = require('upload')
-  , inherit = require('dropload');
+  , inherit = require('inherit');
 
 /**
  * Expose `Dropload`.
