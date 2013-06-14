@@ -42,7 +42,7 @@ function Dropload(el) {
  * Mixin emitter.
  */
 
-inherit(Emitter, Dropload);
+inherit(Dropload, Emitter);
 
 /**
  * Dragenter handler.
